@@ -1,9 +1,9 @@
 {
     "name":		"DiceInTheVineyard",
-    "version":		"0.1",
+    "version":		"0.2",
     "description":	"Dice tracker for Dogs in the Vineyard.  Stacks poker-chip-styled roll tokens in defined areas for characters to spend.",
-    "authors":		"manveti",
-    "roll20userid":	"503018",
+    "authors":		"manveti, programzeta",
+    "roll20userid":	"503018, 724589",
     "dependencies":	{},
     "modifies":		{},
     "conflicts":	[]
