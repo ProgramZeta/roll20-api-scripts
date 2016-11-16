@@ -38,9 +38,8 @@ provides the following subcommands:
 
     !ditv help
 	Display a help message listing the various subcommands.
-    !ditv add NAME X Y [COLOR]
+    !ditv add NAME [COLOR]
 	Allocate an area on the tabletop for a character with the given name.
-	X and Y are given in squares, starting at 0,0 in the top left.
 	If COLOR is provided, it should be an HTML-style RGB string (e.g.
 	"#60A0FF"), which will be used to border the area (default is #FFFF00).
     !ditv remove NAME
@@ -54,6 +53,14 @@ provides the following subcommands:
 	whitespace or "+".
     !ditv count NAME
 	Display a count of the specified character's chips in global chat.
+    !ditv restackChips NAME
+        Clean up your chips and re-stack them in your character area.
+    !ditv addChip NAME VALUE
+        If you accidently remove a chip, you can use this command to add 
+	a specific chip value to your area
+    !ditv fallout NAME SEVERITY
+        Calculate and roll fallout for a character using their remaining chips
+	as the number of fallout die.
     !ditv setimage VALUE [URL]
 	Set the image URL for the specified chip value.  If URL is not given,
 	the currently selected token's image will be used.
